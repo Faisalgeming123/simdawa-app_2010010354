@@ -47,7 +47,7 @@ class Jenis extends CI_Controller
             $this->load->view('template/footer');
         }
     }
-    
+
     public function hapus($id)
     {
         if (isset($id)) {
